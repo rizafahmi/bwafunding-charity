@@ -1,0 +1,424 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		font-size: 14px;;
+	}
+	.header-transparent .nav-menu li a, 
+	.xs-box .nav-menu li a {
+		padding: 60px 9px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 992px) {
+	html {
+		font-size: 90%;
+	}
+	/* margin bottom list  */
+	.xs-btn-wraper a ,
+	.xs-archive-content ,
+	.xs-archive-image img ,
+	.xs-text-content ,
+	.xs-feature-image ,
+	.xs-service-promo ,
+	.xs-event-image ,
+	.xs-partner-content ,
+	.xs-single-journal ,
+	.footer-widget ,
+	.xs-feature-text-content ,
+	.xs-feature-image-box.image-1 ,
+	.xs-single-funFact-v3 ,
+	.xs-about-feature ,
+	.xs-single-funFact ,
+	.xs-single-team ,
+	.xs-event-schedule-widget .widget-title ,
+	.xs-event-wraper ,
+	.xs-post-footer .post-tags ,
+	.xs-single-children ,
+	.xs-nav-pills ,
+	.xs-single-pricing-table ,
+	.xs-volunteer-form-wraper.volunteer-version-2 ,
+	.xs-contact-section-v2 .xs-contact-form-wraper ,
+	.xs-contact-details ,
+	.nav-menu {
+		margin-bottom: 30px;
+	}
+	.xs-archive-image .xs-mb-30 {
+		margin-bottom: 0;
+	}
+	/* ipad overlay */
+	.xs-ipad-overlay {
+		position: relative;
+	}
+	.xs-ipad-overlay::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+	/* menus */
+	.header-transparent .xs_nav-portrait .nav-toggle:before {
+		background-color: #ffffff;
+		box-shadow: 0 0.5em 0 0 #ffffff, 0 1em 0 0 #ffffff;
+	}
+	.header-transparent .nav-menu li a .submenu-indicator-chevron {
+		border-color: transparent #333333 #333333 transparent;
+	}
+	.xs_nav-portrait .nav-menus-wrapper {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.xs_nav-portrait .nav-menus-wrapper-close-button {
+		margin: 0 0 0 auto;
+	}
+	.header-transparent .nav-brand, 
+	.xs-box .nav-brand {
+		filter: none;
+		min-height: auto;
+		max-height: none;
+		line-height: 1;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.header-transparent .nav-menu li a, 
+	.xs-box .nav-menu li a {
+		padding: 15px 15px;
+		color: #333333;
+	}
+	.xs-header .nav-menus-wrapper {
+		flex-direction: unset;
+	}
+	.nav-menus-wrapper [class*="col-"] {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	/* .header-transparent .nav-menu, .xs-box .nav-menu {
+		margin-bottom: 30px;
+	} */
+	.xs-top-bar.top-bar-second:before, .xs-top-bar.top-bar-second:after {
+		display: none;
+	}
+	/*  welcome section  */
+	.xs-welcome-wraper h2 {
+		font-size: 3.64286em;
+	}
+	/* section heading */
+	.xs-heading .xs-title:before {
+		display: none;
+	}
+	.xs-line-title:before {
+		display: none;
+	}
+	.xs-heading .xs-btn-wraper {
+		text-align: left;
+	}
+	.xs-heading .xs-title {
+		font-size: 2.28571em;
+	}
+	/* section padding */
+	.xs-section-padding ,
+	.xs-about-v2 ~ .xs-popularCauses-v2 {
+		padding: 60px 0;
+	}
+	.xs-content-section-padding {
+		padding: 50px 0;
+	}
+	/* archive */
+	.xs-archive-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.xs-funfact-list li span {
+		font-size: 0.65714em;
+	}
+	.xs-archive-image {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.xs-archive-image img {
+		width: 100%;
+	}
+	/* causes */
+	.xs-popular-item .xs-item-header img {
+		width: 100%;
+	}
+	/* text content */
+	.xs-text-content {
+		padding-right: 0;
+	}
+	/* feature image */
+	.xs-feature-image img {
+		width: 100%;
+	}
+	/* feature content */
+	.xs-feature-content, .xs-feature-content-v2 {
+		padding: 90px 20px;
+	}
+	.xs-feature-content h2, 
+	.xs-feature-content-v2 h2 {
+		font-size: 2.28571em;
+		margin-bottom: 0;
+	}
+	/* feature box */
+	.xs-feature-box {
+		padding: 80px 30px;
+		min-height: 250px;
+	}
+	.xs-feature-box.highlight {
+		min-height: 350px;
+	}
+	.xs-feature-box-fulid {
+		margin-top: 0;
+	}
+	/* voulnteer */
+	.xs-volunteer-form-wraper {
+		padding: 20px;
+	}
+	.xs-big-sub-title, .xs-volunteer-form-wraper h2 {
+		font-size: 1.88571em;
+	}
+	/* event */
+	.xs-single-event {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.xs-event-image img {
+		width: 100%;
+	}
+	/* journal */
+	.xs-single-journal .entry-thumbnail img {
+		width: 100%;
+	}
+	/* footer */
+	.xs-copyright-text p {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.xs-footer-menu {
+		text-align: center;
+	}
+	/* index version 2 */
+	/* xs box menu */
+	.xs-header.xs-box .xs_nav-portrait {
+		height: 44px;
+	}
+	.xs-header.xs-box .nav-menu li a {
+		padding: 15px 15px;
+	}
+	.xs-header.xs-box .xs-top-bar ~ .nav-menus-wrapper .xs-logo-wraper {
+		margin-top: 0;
+	}
+	.xs-header.xs-box .nav-menus-wrapper .xs-logo-wraper {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.xs-header.xs-box .xs-navs-button {
+		text-align: center;
+		height: auto;
+	}
+	/* xs top bar */
+	.xs-top-bar .xs-top-social {
+		float: left;
+		margin-bottom: 0;
+		margin-right: 30px;
+	}
+	.xs-top-bar .xs-top-bar-mail {
+		float: left;
+		margin-right: 0;
+		margin-top: 1px;
+	}
+	/* about */
+	.xs-about-v2 {
+		margin-bottom: 30px;
+	}
+	.xs-about-content-img {
+		width: 100%;
+	}
+	.xs-about-content {
+		padding: 30px 15px 0;
+	}
+	/* xs full width */
+	.xs_nav-portrait {
+		position: relative;
+	}
+	.xs-header.xs-fullWidth .nav-brand {
+		padding: 13px 0;
+		text-align: center;
+		margin: 13px 0;
+	}
+	.xs-header.xs-fullWidth .nav-menu li a {
+		padding: 15px 15px;
+	}
+	/* index version 3 feauture text content */
+	.xs-feature-image-box.image-2 {
+		margin-top: 0;
+	}
+	/* causes */
+	.xs-causes-footer {
+		padding: 20px;
+	}
+	/* event single */
+	.xs-horizontal-tabs .tab-content .tab-pane .xs-unorder-list li:last-child {
+		margin-bottom: 15px;
+	}
+	.xs-event-schedule-widget ,
+	.xs-horizontal-tabs .tab-content {
+		padding: 30px;
+	}
+	/* blog single */
+	.sidebar-right .widget {
+		margin-left: 0px;
+	}
+	.xs-blog-post-comment {
+		margin-bottom: 40px;
+	}
+	.widget_call_to_action img {
+		width: 100%;
+	}
+	/* children */
+	.xs-single-children img {
+		width: 100%;
+	}
+	.xs-donation-form-wraper {
+		padding-left: 0px;
+		margin-top: 30px;
+	}
+	/* donate-now.html */
+	.xs-children-section {
+		padding-bottom: 20px;
+	}
+	.xs-what-we-do-box {
+		padding-bottom: 50px;
+	}
+	.xs-donation-form-images img {
+		width: 100%;
+	}
+	/* FAQ */
+	.xs-newsletter-content {
+		padding: 40px;
+	}
+	.xs-newsletter-form [type="submit"] {
+		width: 100%;
+		height: 50px;
+	}
+	.xs-newsletter-form {
+		height: auto;
+	}
+	.xs-newsletter-form input:not([type="submit"]) {
+		width: 100%;
+		height: 50px;
+		margin-bottom: 15px;
+		border-right: 2px solid rgba(255, 255, 255, 0.6);;
+	}
+	/* mission.html */
+	.xs-fature-causes-deatils {
+		margin-top: 30px;
+	}
+	.xs-fature-causes-deatils h3 {
+		font-size: 2em;
+		line-height: 1.5;
+	}
+	.xs-call-to-action h3 {
+		font-size: 2em;
+		line-height: 1.5;
+	}
+	.xs-causes-images img {
+		width: 100%;
+	}
+	/* service.html */
+	.xs-service-slider-content {
+		padding: 0 15px;
+	}
+	.xs-service-slider-content h2 {
+		font-size: 2.5em;
+	}
+	.xs-service-grow h4 {
+		padding-top: 20px;
+		padding-left: 0px;
+	}
+	/* volunteer */
+	.xs-volunteer-form-wraper.volunteer-version-2 {
+		padding-top: 0px;
+	}
+	/* contact.html */
+	.xs-contact-container {
+		padding: 30px;
+	}
+	.xs-contact-section-v2 {
+		padding-bottom: 20px;
+	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	html {
+		font-size: 80%;
+	}
+	/* menus */
+	/* header top bar */
+	.xs-header.xs-box .xs_nav-portrait {
+		height: 64px;
+	}
+	.xs-top-bar .xs-top-social {
+		float: left;
+		margin-bottom: 15px;
+	}
+	.xs-top-bar .xs-top-bar-mail {
+		float: left;
+		margin-right: 0;
+	}
+	.xs-header .nav-menus-wrapper {
+		flex-direction: unset;
+	}
+	/* event single */
+	.xs-horizontal-tabs .nav-tabs .nav-item {
+		width: 100%;
+	}
+	.xs-blog-post-details .xs-padding-40 ,
+	.xs-blog-post-comment.xs-padding-40 {
+		padding: 30px;
+	}
+	.xs-post-footer .post-tags, 
+	.xs-post-footer .post-author, 
+	.xs-author-block .post-tags, 
+	.xs-author-block .post-author {
+		float: none;
+		width: 100%;
+	}
+	.xs-post-footer .share-items, 
+	.xs-post-footer .post-content, 
+	.xs-author-block .share-items, 
+	.xs-author-block .post-content {
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	.xs-social-list li, .xs-social-list-v2 li {
+		margin: 0 10px 15px 0;
+	}
+	.xs-blog-post-comment .children {
+		padding-left: 15px;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	html {
+		font-size: 65%;
+	}
+}
+
+@media (max-width: 320px) {
+	html {
+		font-size: 60.5%;
+	}
+}

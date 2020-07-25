@@ -1,0 +1,189 @@
+.xs-heading span,
+.xs-line-title,
+.xs-simple-tag li a,
+a.xs-post-title:hover,
+.xs-unorder-list li:before,
+.xs-menus.xs_nav-landscape .nav-submenu li a:hover,
+.xs-menus.xs_nav-landscape .nav-submenu li a:hover,
+.xs-feature-content-v2 h2 span,
+.xs-service-promo span,
+.xs-volunteer-form-wraper,
+.xs-volunteer-form input:not([type="submit"]),
+.xs-volunteer-form textarea ,
+.xs-volunteer-form select option,
+.xs-event-content a:not(.btn),
+.xs-single-journal .entry-header span a,
+.xs-funfact-list li p sup,
+.xs-breadcumb li a:hover,
+.xs-post-meta-list span a:hover,
+.xs-post-entry-title a:hover,
+.xs-blog-post-tag a:hover,
+.xs-post-author-details em i,
+.xs-recent-post-widget .post-info .entry-title a:hover,
+.xs-recent-post-widget .post-info .comments-link i,
+.xs-side-bar-list li a:hover,
+.color-aqua,
+.xs-line-title,
+.xs-feature-content h2 span, .xs-feature-content-v2 h2 span,
+blockquote:before{
+	color: #f8b864 !important;
+	transition: all .4s ease;
+}
+
+/* backgrounds */
+ .xs-line-title:before ,
+.btn-primary ,
+.btn-primary:hover ,
+.btn-secondary:hover:before, 
+.btn-secondary:hover:after,
+.btn-warning:hover:before, 
+.btn-warning:hover:after,
+.btn-success:hover:before, 
+.btn-success:hover:after,
+.xs-info-list i ,
+.xs-back-to-top ,
+.xs-causes-header ,
+.xs-skill-bar .xs-skill-track ,
+.xs-skill-bar p ,
+.xs-feature-box ,
+.xs-service-promo.box-image .xs-black-overlay.bg-aqua ,
+.xs-blog-post-comment .comment-respond .comment-form input[type="submit"] ,
+.xs-sidebar-widget .widget-title:before, 
+.xs-sidebar-widget .widget-title:after,
+#preloader ,
+button.btn-secondary.btn-color-alt {
+	background-color: #f8b864 !important;
+	transition: all .4s ease;
+}
+
+/* border color */
+/* .xs-volunteer-form input:not([type="submit"]),
+.xs-volunteer-form select,
+.xs-volunteer-form textarea ,
+.xs-volunteer-form .xs-fileContainer {
+	border-color: #f8b864 !important;
+	transition: all .4s ease;
+} */
+
+.xs-feature-box.highlight {
+	background-color: #ea9e3a !important;
+	transition: all .4s ease;
+}
+
+
+/* color secondary list */
+/* color */
+.xs-heading .xs-title,
+.xs-round-btn:hover,
+.xs-post-title,
+blockquote span,
+.xs-avatar-title a,
+.xs-social-list.square li a, 
+.square.xs-social-list-v2 li a,
+.xs-social-list.square li a, 
+.square.xs-social-list-v2 li a
+.xs-social-list.simple li a, 
+.simple.xs-social-list-v2 li a,
+.xs-countdown-timer .timer-count,
+.xs-pagination li a,
+.xs-causes-footer,
+.xs-list-with-content li,
+.xs-list-with-content li span.number-percentage-count,
+.xs-about-feature h3,
+.xs-fature-causes-deatils h3 ,
+.xs-service-promo h5,
+.xs-volunteer-form-wraper.volunteer-version-2 h2,
+.xs-volunteer-form-wraper.volunteer-version-3 h2,
+.xs-single-journal .entry-title a,
+.xs-archive-content h5,
+.xs-funfact-list li p .number-percentage-count,
+.xs-children-details a,
+.xs-donation-form label,
+.xs-single-media h5,
+.xs-single-media a,
+.xs-nav-pills li a,
+.xs-tab-content h5,
+.xs-event-content h4,
+.xs-list-group li,
+.xs-event-schedule-widget .widget-title,
+.xs-horizontal-tabs .nav-tabs .nav-item .nav-link,
+.xs-blog-post-details .xs-unorder-list li:before,
+.xs-post-entry-title a,
+.entry-sub-title ,
+.xs-post-sub-heading,
+.xs-post-author-details a,
+.post-navigation a h5,
+.xs-blog-post-comment .comments-title,
+.xs-blog-post-comment .comment-meta .comment-author b,
+.xs-blog-post-comment .comment-respond .comment-reply-title,
+.xs-sidebar-widget .widget-title,
+.xs-sidebar-widget .xs-recent-post-widget .entry-title a,
+.color-navy-blue,
+.xs-event-content a:not(.btn) ,
+.btn-secondary.btn-color-alt {
+	color: #5c1112 !important;
+	transition: all .4s ease;
+}
+
+/* background color */
+.bg-navy-blue ,.bg-aqua,
+.xs-separetor.v3::before, 
+.xs-separetor.v3::after,
+.btn-primary:hover:before, 
+.btn-primary:hover:after,
+.btn-secondary,
+.btn-secondary:hover,
+.xs-social-list li a:hover, .xs-social-list-v2 li a:hover,
+.xs-round-nav:hover,
+.xs-countdown-timer.timer-style-2,
+.xs-contact-container,
+.xs-newsletter-form [type="submit"],
+.xs-widnow-wraper.active .xs-window-nav .xs-window-opener,
+.xs-evnet-meta-date,
+.xs-blog-post-details .post-meta-date {
+	background-color: #5c1112 !important;
+	transition: all .4s ease;
+}
+.btn-secondary.btn-color-alt:hover {
+	background-color: #5c1112 !important;
+}
+
+/* background */
+.entry-content blockquote {
+	background: #5c1112 !important;
+	transition: all .4s ease;
+}
+
+.xs-service-promo.box-image span ,
+.btn-secondary.btn-color-alt ,
+.xs-funfact-content-wraper .xs-title ,
+.xs-service-promo.box-image h5,
+.xs-funfact-section .xs-heading .xs-title.small,
+.xs-service-promo.box-color span, 
+.xs-service-promo.box-color h5, 
+.xs-service-promo.box-color p,
+.xs-unorder-list.check li::before {
+	color:#fff !important;
+	transition: all .4s ease;
+}
+
+
+.xs-black-overlay.bg-aqua {
+	opacity: .8;
+}
+
+.xs-contact-form.contact-form-v2 ::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #FFFFFF; }
+  
+  .xs-contact-form.contact-form-v2 ::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #FFFFFF; }
+  
+  .xs-contact-form.contact-form-v2 :-ms-input-placeholder {
+	/* IE 10+ */
+	color: #FFFFFF; }
+  
+  .xs-contact-form.contact-form-v2 :-moz-placeholder {
+	/* Firefox 18- */
+	color: #FFFFFF; }

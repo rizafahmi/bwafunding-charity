@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7yutfj');
+  src:  url('../fonts/icomoon.eot?7yutfj#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7yutfj') format('truetype'),
+    url('../fonts/icomoon.woff?7yutfj') format('woff'),
+    url('../fonts/icomoon.svg?7yutfj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-google-plus:before {
+  content: "\e902";
+}
+.icon-linkedin:before {
+  content: "\e903";
+}
+.icon-pinterest:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-youtube:before {
+  content: "\e906";
+}
+.icon-vk:before {
+  content: "\e907";
+}
+.icon-heart-shape-silhouette:before {
+  content: "\e908";
+}
+.icon-like:before {
+  content: "\e909";
+}
+.icon-home:before {
+  content: "\e90a";
+}
+.icon-phone-call:before {
+  content: "\e90b";
+}
+.icon-contact:before {
+  content: "\e90c";
+}
+.icon-comments:before {
+  content: "\e90d";
+}
+.icon-cloud-computing:before {
+  content: "\e90e";
+}
+.icon-care:before {
+  content: "\e90f";
+}
+.icon-coin:before {
+  content: "\e910";
+}
+.icon-donation:before {
+  content: "\e911";
+}
+.icon-donation_2:before {
+  content: "\e912";
+}
+.icon-heart:before {
+  content: "\e913";
+}
+.icon-dove:before {
+  content: "\e914";
+}
+.icon-drop:before {
+  content: "\e915";
+}
+.icon-first-aid-kit:before {
+  content: "\e916";
+}
+.icon-groceries:before {
+  content: "\e917";
+}
+.icon-heartbeat:before {
+  content: "\e918";
+}
+.icon-left-arrow:before {
+  content: "\e919";
+}
+.icon-newspaper:before {
+  content: "\e91a";
+}
+.icon-open-book:before {
+  content: "\e91b";
+}
+.icon-down-arrow:before {
+  content: "\e91c";
+}
+.icon-planet-earth:before {
+  content: "\e91d";
+}
+.icon-plus-button:before {
+  content: "\e91e";
+}
+.icon-poor-water-supply:before {
+  content: "\e91f";
+}
+.icon-tap-water:before {
+  content: "\e920";
+}
+.icon-support:before {
+  content: "\e921";
+}
+.icon-sweater:before {
+  content: "\e922";
+}
+.icon-doctor:before {
+  content: "\e923";
+}
+.icon-team:before {
+  content: "\e924";
+}
+.icon-group:before {
+  content: "\e925";
+}
+.icon-family:before {
+  content: "\e926";
+}
+.icon-children:before {
+  content: "\e927";
+}
+.icon-team_2:before {
+  content: "\e928";
+}
+.icon-telemarketer:before {
+  content: "\e929";
+}
+.icon-water:before {
+  content: "\e92a";
+}

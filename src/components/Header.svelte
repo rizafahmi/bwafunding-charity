@@ -4,28 +4,28 @@
     <nav class="xs-menus">
       <div class="nav-header">
         <div class="nav-toggle" />
-        <a href="index.html" class="nav-logo">
-          <img src="assets/images/logo.png" alt="" />
+        <a href="/" class="nav-logo">
+          <img src="/assets/images/logo.png" alt="" />
         </a>
       </div>
       <!-- .nav-header END -->
       <div class="nav-menus-wrapper row">
         <div class="xs-logo-wraper col-lg-2 xs-padding-0">
-          <a class="nav-brand" href="index.html">
-            <img src="assets/images/logo.png" alt="" />
+          <a class="nav-brand" href="/">
+            <img src="/assets/images/logo.png" alt="" />
           </a>
         </div>
         <!-- .xs-logo-wraper END -->
         <div class="col-lg-7">
           <ul class="nav-menu">
             <li>
-              <a href="index.html">home</a>
+              <a href="/">home</a>
             </li>
             <li>
-              <a href="about.html">about</a>
+              <a href="/about">about</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
           <!-- .nav-menu END -->

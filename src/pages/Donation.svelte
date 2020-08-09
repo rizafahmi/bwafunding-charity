@@ -24,7 +24,8 @@
   }
 
   async function handleForm(event) {
-    data.pledged = data.pledged + parseInt(amount);
+    const newData = await getCharity(params.id);
+    newData.pledged = newData.pledged + parseInt(amount);
     try {
       const res = await fetch(
         `https://charity-api-bwa.herokuapp.com/charities/${params.id}`,
@@ -33,12 +34,24 @@
           headers: {
             "content-type": "application/json",
           },
-          body: JSON.stringify(data),
+          body: JSON.stringify(newData),
         }
       );
-      console.log(res);
-      // redirection
-      router.redirect("/success");
+      const resMid = await fetch(`/.netlify/functions/payment`, {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({
+          id: params.id,
+          amount: parseInt(amount),
+          name,
+          email,
+        }),
+      });
+      const midtransData = await resMid.json();
+      console.log(midtransData);
+      window.location.href = midtransData.url;
     } catch (err) {
       console.log(err);
     }

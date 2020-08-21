@@ -4,7 +4,7 @@ Charity adalah nama projek yang akan kita bangun di mana orang-orang dapat menyu
 
 Projek yang akan kita bangun kurang lebih akan seperti website kitabisa.
 
-Merupakan studi kasus course Svelte di https://buildwithangga.com/
+Merupakan studi kasus course Svelte di https://www.buildwithangga.com/kelas/sveltejs-front-end-javascript-development-web-donasi-online
 
 Versi live bisa dilihat di https://bwafunding-charity.netlify.app
 
